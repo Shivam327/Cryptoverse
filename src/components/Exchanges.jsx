@@ -1,3 +1,4 @@
+/* eslint-disable quotes */
 import React from "react";
 import millify from "millify";
 import { Collapse, Row, Col, Typography, Avatar } from "antd";
@@ -31,6 +32,7 @@ const Exchanges = () => {
                 key={exchange.id}
                 showArrow={false}
                 header={
+                  // eslint-disable-next-line react/jsx-wrap-multilines
                   <Row key={exchange.id}>
                     <Col span={6}>
                       <Text>
